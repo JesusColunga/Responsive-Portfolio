@@ -1,0 +1,31 @@
+/* contact.css */
+/* 21/Feb/2019 */
+
+input {
+    width:          910px;
+}
+
+textarea {
+    height:         135px;
+    width:          910px;;
+}
+
+/* - - - -  id  - - - - - */
+#ContenidoCentral3 {
+    background:     #ffffff;
+    width:          960px;
+    margin:         0 auto;
+    border-style:   solid;
+    border-color:   #dddddd;
+    border-width:   3px;
+}
+
+#boton {   
+    background:     #4aaaa5;
+    color:          white;
+    height:         40px;
+    width:          120px;
+    padding:        10px;
+    font-family:    'Georgia', Times, Times New Roman, serif;
+    font-weight:    bold;
+}

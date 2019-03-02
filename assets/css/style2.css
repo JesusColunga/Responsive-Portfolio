@@ -1,0 +1,122 @@
+/* style.css */
+/* 23/Feb/2019 */
+
+body {
+    background-image:   url("../images/dynamic-style.png");
+    background-repeat:  repeat;
+    color:              #777777;
+    margin:             0;
+    font-family:        'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+    padding:        0px 15px 0px 15px;
+}
+
+h1 {
+    color:          #4aaaa5;
+    margin :        0;
+    padding:        20px;
+    font-family:    'Georgia', Times, Times New Roman, serif;
+}
+
+hr {
+    color:          #dddddd;
+    width:          900px;
+    margin:         0 auto;
+}
+
+p {
+    line-height:    150%;
+}
+
+/* - - - -  id  - - - - - */
+#navegacion {
+    background:     #ffffff;
+    height:         60px;
+    margin:         0 0 20px 0;
+    border-style:   solid;
+    border-color:   #cccccc;
+    border-width:   0 0 3px 0;
+}
+
+#ContenidoCentral1 {  
+    width:          960px;
+    margin:         0 auto;
+}
+
+#nombre {   
+    background:     #4aaaa5;
+    color:          white;
+    height:         20px;
+    width:          120px;
+    float:          left;
+    padding:        20px;
+    font-family:    'Georgia', Times, Times New Roman, serif;
+    font-weight:    bold;
+}
+
+#ligas {
+    background:     #ffffff;
+    color:          red;
+    height:         20px;
+    width:          240px;
+    float:          right;
+    padding:        20px;
+}
+
+#ContenidoCentral2 {
+    background:     #ffffff;
+    width:          960px;
+    margin:         0 auto;
+    padding-bottom: 16px;
+    border-style:   solid;
+    border-color:   #dddddd;
+    border-width:   3px;
+}
+
+#parrafo1 {
+    padding:        20px;
+}
+
+#imagen {
+    margin-left:    10px;
+}
+
+#imagen2 {
+    margin-left:    100px;
+}
+
+#rollo1 {
+    width:          650px;
+    float:          right;
+    margin-top:     0;
+}
+
+#rollo2 {
+    margin:         0 20px 16px 30px;
+}
+
+/* - - - -  class  - - - - - */
+.pie {
+    background:     #666666;
+    color:          #ffffff;
+    height:         30px;
+    text-align:     center;
+    border-top:     8px solid #4aaaa5;
+    margin:         20px 0 0 0;
+    padding-top:    30px;
+}
+
+/* - - -  Media Queries  - - - */
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
